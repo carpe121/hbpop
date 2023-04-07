@@ -1,0 +1,1 @@
+apple:orange	apple:apple2	apple:banana	orange:apple2	orange:banana	apple2:banana

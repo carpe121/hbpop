@@ -20,6 +20,13 @@ cleanup () {
 scratch=$(mktemp -d -t)
 cd "$scratch"
 
+sed '1 s/2/papaya/g;s/1/kiwi/g' test.fst #looks on first line only to replace numbers with words
+
+
+
+
+
+
 sed -i "1 s/.*/$(< file_header.tsv)/" all.fst 
 sed 's/=/_/g' all.fst
 
